@@ -1,0 +1,35 @@
+{
+    "name": "hq-updated-back",
+    "version": "1.0.0",
+    "description": "API for HQ",
+    "main": "index.js",
+    "scripts": {
+        "dev-start": "nodemon index.js",
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "hq",
+        "api",
+        "hapi"
+    ],
+    "author": "Alisher Iskakov",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "boom": "^7.2.0",
+        "dotenv": "^6.0.0",
+        "easyxml": "^2.0.1",
+        "express": "^4.16.4",
+        "hapi": "^17.5.4",
+        "hapi-auth-jwt2": "^8.1.0",
+        "inert": "^5.1.0",
+        "jsonwebtoken": "^8.3.0",
+        "lodash": "^4.17.11",
+        "mongoose": "^5.2.13",
+        "nanoid": "^2.0.0",
+        "nodemailer": "^4.6.8",
+        "nodemon": "^1.18.4",
+        "sha1": "^1.1.1"
+    }
+}
