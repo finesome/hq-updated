@@ -1,0 +1,47 @@
+.auth-modal {
+    padding: 4em 2em;
+}
+.auth-modal-close {
+    cursor: pointer;
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    width: 24px;
+    height: 24px;
+    opacity: 0.5;
+}
+.auth-modal-close:hover {
+    opacity: 1;
+}
+.auth-modal-header {
+    margin-bottom: 32px;
+    font-size: 26px;
+    text-align: center;
+}
+.auth-modal-form {
+}
+.auth-modal-success-msg {
+    margin-bottom: 24px;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 400;
+    color: green;
+}
+.auth-modal-error-msg {
+    margin-bottom: 32px;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 400;
+    color: red;
+}
+.auth-modal-form {
+    font-size: 18px;
+}
+.auth-modal-forgot {
+    cursor: pointer;
+    color: royalblue;
+    font-size: 16px;
+    margin-bottom: 16px;
+    text-align: right;
+    text-decoration: underline;
+}

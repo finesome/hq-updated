@@ -1,0 +1,68 @@
+.dashboard-profile-wrapper {
+    padding: 0 2em;
+    margin-bottom: 32px;
+    min-height: 100vh;
+    font-size: 14px;
+}
+.dashboard-profile-header {
+    margin-bottom: 1em;
+    padding-top: 10px;
+    font-size: 22px;
+    text-align: center;
+}
+.dashboard-profile-subheader {
+    font-size: 18px;
+    margin-bottom: 2em;
+    text-align: center;
+}
+.dashboard-profile-question {
+    font-size: 14px;
+}
+@media only screen and (max-width: 850px) {
+    .dashboard-profile-wrapper {
+        padding: 0 24px;
+        font-size: 14px;
+    }
+    .dashboard-profile-header {
+        margin-bottom: 1em;
+        padding-top: 18px;
+        font-size: 18px;
+    }
+    .dashboard-profile-subheader {
+        font-size: 16px;
+        padding-top: 0;
+        margin-bottom: 12px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .dashboard-profile-wrapper {
+        padding: 0 16px;
+        font-size: 12px;
+    }
+    .dashboard-profile-header {
+        margin-bottom: 12px;
+        padding-top: 1em;
+        font-size: 16px;
+    }
+    .dashboard-profile-subheader {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    .dashboard-profile-question {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .dashboard-profile-wrapper {
+        padding: 0 12px;
+    }
+    .dashboard-profile-header {
+        margin-bottom: 10px;
+        padding-top: 1em;
+        font-size: 14px;
+    }
+    .dashboard-profile-subheader {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+}

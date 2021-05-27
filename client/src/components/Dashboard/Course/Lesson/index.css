@@ -1,0 +1,30 @@
+.dashboard-course-lesson-wrapper {
+    font-size: 16px;
+}
+.dashboard-course-lesson-part-header {
+    margin-bottom: 2em;
+    font-size: 20px;
+    text-align: center;
+}
+.dashboard-course-lesson-lecture,
+.dashboard-course-lesson-quiz,
+.dashboard-course-lesson-video {
+    margin-bottom: 2em;
+    font-size: 18px;
+}
+@media only screen and (max-width: 850px) {
+    .dashboard-course-lesson-lecture,
+    .dashboard-course-lesson-quiz,
+    .dashboard-course-lesson-video {
+        margin-bottom: 1em;
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .dashboard-course-lesson-lecture,
+    .dashboard-course-lesson-quiz,
+    .dashboard-course-lesson-video {
+        margin-bottom: 1em;
+        font-size: 14px;
+    }
+}

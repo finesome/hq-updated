@@ -1,0 +1,91 @@
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 0 16px 0 #00000099;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 0 16px;
+    height: 80px;
+    line-height: 80px;
+}
+.app-header-logo {
+    width: 88px;
+}
+.app-headev-nav {
+    margin-left: auto;
+}
+.app-header-nav-link-auth {
+    cursor: pointer;
+    padding: 16px;
+    color: #000;
+    font-weight: 400;
+    font-size: 18px;
+}
+.app-header-nav-link-auth:hover {
+    color: #000;
+}
+.app-header-nav-link-active,
+.app-header-nav-link-active:hover {
+    color: #0020cb;
+    font-weight: bold;
+}
+.app-footer {
+    padding: 2em;
+    background-color: #fff;
+    /* color: #fff; */
+    color: #606060;
+    text-align: left;
+}
+@media only screen and (max-width: 600px) {
+    .app-header {
+        padding: 0 16px;
+        height: 64px;
+        line-height: 64px;
+    }
+    .app-header-logo {
+        width: 72px;
+    }
+    .app-header-nav-link-auth {
+        font-size: 16px;
+    }
+    .app-footer {
+        padding: 2em;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 440px) {
+    .app-header {
+        padding: 0 12px;
+        height: 48px;
+        line-height: 48px;
+    }
+    .app-header-logo {
+        width: 56px;
+    }
+    .app-header-nav-link-auth {
+        font-size: 14px;
+    }
+    .app-footer {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .app-header {
+        padding: 0 8px;
+        height: 48px;
+        line-height: 48px;
+    }
+    .app-header-logo {
+        width: 48px;
+    }
+    .app-header-nav-link-auth {
+        font-size: 12px;
+    }
+    .app-footer {
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,23 @@
+.dashboard-wrapper {
+    margin-top: 104px;
+}
+@media only screen and (max-width: 850px) {
+    .dashboard-wrapper {
+        margin-top: 96px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .dashboard-wrapper {
+        margin-top: 72px;
+    }
+}
+@media only screen and (max-width: 440px) {
+    .dashboard-wrapper {
+        margin-top: 56px;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .dashboard-wrapper {
+        margin-top: 48px;
+    }
+}

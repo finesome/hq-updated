@@ -1,0 +1,18 @@
+.dashboard-course-lesson-quiz-content-question {
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+.dashboard-course-lesson-quiz-content-form {
+    padding: 8px;
+}
+.dashboard-course-lesson-quiz-content-form-field {
+    margin-bottom: 1em;
+}
+.dashboard-course-lesson-quiz-content-form-correct,
+.dashboard-course-lesson-quiz-content-form-wrong {
+    padding: 24px 24px;
+    border-left: 1px solid green;
+}
+.dashboard-course-lesson-quiz-content-form-wrong {
+    border-left: 1px solid red;
+}

@@ -1,0 +1,22 @@
+.admin-menu-wrapper {
+    position: fixed;
+    min-height: 100vh;
+    width: 25%;
+    top: 0;
+    bottom: 0;
+    background-color: #23282d;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.admin-menu {
+    padding: 16px;
+}
+.admin-menu-item {
+    font-size: 15px;
+}
+.admin-menu-item-course {
+    font-size: 14px;
+}
+.admin-content-wrapper {
+    padding: 32px;
+}
