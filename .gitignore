@@ -29,4 +29,7 @@ benchmarks/graphs
 # .env
 
 # Production bundle
-/build
+build
+
+# Static files
+public
